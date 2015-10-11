@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "MFComposeViewController.h"
+@interface ViewController : UIViewController<MFComposeViewControllerDelegate>
 
 
 @end

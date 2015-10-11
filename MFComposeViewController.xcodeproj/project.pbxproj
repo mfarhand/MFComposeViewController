@@ -15,6 +15,9 @@
 		D17DAB3A1BCA4A1D00195EEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17DAB381BCA4A1D00195EEB /* LaunchScreen.storyboard */; };
 		D17DAB451BCA4A1D00195EEB /* MFComposeViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D17DAB441BCA4A1D00195EEB /* MFComposeViewControllerTests.m */; };
 		D17DAB501BCA4A1D00195EEB /* MFComposeViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D17DAB4F1BCA4A1D00195EEB /* MFComposeViewControllerUITests.m */; };
+		D17DAB601BCA4A6900195EEB /* MFComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D17DAB5F1BCA4A6900195EEB /* MFComposeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D17DAB621BCA4A8E00195EEB /* MFComposeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D17DAB611BCA4A8E00195EEB /* MFComposeViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		D17DAB651BCA4ABD00195EEB /* MFSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = D17DAB641BCA4ABD00195EEB /* MFSheetView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		D17DAB4B1BCA4A1D00195EEB /* MFComposeViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFComposeViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17DAB4F1BCA4A1D00195EEB /* MFComposeViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFComposeViewControllerUITests.m; sourceTree = "<group>"; };
 		D17DAB511BCA4A1D00195EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D17DAB5E1BCA4A6900195EEB /* MFComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFComposeViewController.h; sourceTree = "<group>"; };
+		D17DAB5F1BCA4A6900195EEB /* MFComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFComposeViewController.m; sourceTree = "<group>"; };
+		D17DAB611BCA4A8E00195EEB /* MFComposeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFComposeViewController.xib; sourceTree = "<group>"; };
+		D17DAB631BCA4ABD00195EEB /* MFSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSheetView.h; sourceTree = "<group>"; };
+		D17DAB641BCA4ABD00195EEB /* MFSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSheetView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		D17DAB1E1BCA4A1D00195EEB = {
 			isa = PBXGroup;
 			children = (
+				D17DAB5D1BCA4A5A00195EEB /* MFComposeClasses */,
 				D17DAB291BCA4A1D00195EEB /* MFComposeViewController */,
 				D17DAB431BCA4A1D00195EEB /* MFComposeViewControllerTests */,
 				D17DAB4E1BCA4A1D00195EEB /* MFComposeViewControllerUITests */,
@@ -138,6 +147,18 @@
 				D17DAB511BCA4A1D00195EEB /* Info.plist */,
 			);
 			path = MFComposeViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		D17DAB5D1BCA4A5A00195EEB /* MFComposeClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D17DAB5E1BCA4A6900195EEB /* MFComposeViewController.h */,
+				D17DAB5F1BCA4A6900195EEB /* MFComposeViewController.m */,
+				D17DAB611BCA4A8E00195EEB /* MFComposeViewController.xib */,
+				D17DAB631BCA4ABD00195EEB /* MFSheetView.h */,
+				D17DAB641BCA4ABD00195EEB /* MFSheetView.m */,
+			);
+			path = MFComposeClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D17DAB621BCA4A8E00195EEB /* MFComposeViewController.xib in Resources */,
 				D17DAB3A1BCA4A1D00195EEB /* LaunchScreen.storyboard in Resources */,
 				D17DAB371BCA4A1D00195EEB /* Assets.xcassets in Resources */,
 				D17DAB351BCA4A1D00195EEB /* Main.storyboard in Resources */,
@@ -270,7 +292,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D17DAB601BCA4A6900195EEB /* MFComposeViewController.m in Sources */,
 				D17DAB321BCA4A1D00195EEB /* ViewController.m in Sources */,
+				D17DAB651BCA4ABD00195EEB /* MFSheetView.m in Sources */,
 				D17DAB2F1BCA4A1D00195EEB /* AppDelegate.m in Sources */,
 				D17DAB2C1BCA4A1D00195EEB /* main.m in Sources */,
 			);
