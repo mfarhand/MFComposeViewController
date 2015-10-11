@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D17DAB2C1BCA4A1D00195EEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D17DAB2B1BCA4A1D00195EEB /* main.m */; };
+		D17DAB2F1BCA4A1D00195EEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D17DAB2E1BCA4A1D00195EEB /* AppDelegate.m */; };
+		D17DAB321BCA4A1D00195EEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D17DAB311BCA4A1D00195EEB /* ViewController.m */; };
+		D17DAB351BCA4A1D00195EEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17DAB331BCA4A1D00195EEB /* Main.storyboard */; };
+		D17DAB371BCA4A1D00195EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17DAB361BCA4A1D00195EEB /* Assets.xcassets */; };
+		D17DAB3A1BCA4A1D00195EEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17DAB381BCA4A1D00195EEB /* LaunchScreen.storyboard */; };
+		D17DAB451BCA4A1D00195EEB /* MFComposeViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D17DAB441BCA4A1D00195EEB /* MFComposeViewControllerTests.m */; };
+		D17DAB501BCA4A1D00195EEB /* MFComposeViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D17DAB4F1BCA4A1D00195EEB /* MFComposeViewControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D17DAB411BCA4A1D00195EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D17DAB1F1BCA4A1D00195EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D17DAB261BCA4A1D00195EEB;
+			remoteInfo = MFComposeViewController;
+		};
+		D17DAB4C1BCA4A1D00195EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D17DAB1F1BCA4A1D00195EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D17DAB261BCA4A1D00195EEB;
+			remoteInfo = MFComposeViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D17DAB271BCA4A1D00195EEB /* MFComposeViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFComposeViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17DAB2B1BCA4A1D00195EEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D17DAB2D1BCA4A1D00195EEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D17DAB2E1BCA4A1D00195EEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D17DAB301BCA4A1D00195EEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D17DAB311BCA4A1D00195EEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D17DAB341BCA4A1D00195EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D17DAB361BCA4A1D00195EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D17DAB391BCA4A1D00195EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D17DAB3B1BCA4A1D00195EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D17DAB401BCA4A1D00195EEB /* MFComposeViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFComposeViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17DAB441BCA4A1D00195EEB /* MFComposeViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFComposeViewControllerTests.m; sourceTree = "<group>"; };
+		D17DAB461BCA4A1D00195EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D17DAB4B1BCA4A1D00195EEB /* MFComposeViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFComposeViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17DAB4F1BCA4A1D00195EEB /* MFComposeViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFComposeViewControllerUITests.m; sourceTree = "<group>"; };
+		D17DAB511BCA4A1D00195EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D17DAB241BCA4A1D00195EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17DAB3D1BCA4A1D00195EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17DAB481BCA4A1D00195EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D17DAB1E1BCA4A1D00195EEB = {
+			isa = PBXGroup;
+			children = (
+				D17DAB291BCA4A1D00195EEB /* MFComposeViewController */,
+				D17DAB431BCA4A1D00195EEB /* MFComposeViewControllerTests */,
+				D17DAB4E1BCA4A1D00195EEB /* MFComposeViewControllerUITests */,
+				D17DAB281BCA4A1D00195EEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D17DAB281BCA4A1D00195EEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D17DAB271BCA4A1D00195EEB /* MFComposeViewController.app */,
+				D17DAB401BCA4A1D00195EEB /* MFComposeViewControllerTests.xctest */,
+				D17DAB4B1BCA4A1D00195EEB /* MFComposeViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D17DAB291BCA4A1D00195EEB /* MFComposeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D17DAB2D1BCA4A1D00195EEB /* AppDelegate.h */,
+				D17DAB2E1BCA4A1D00195EEB /* AppDelegate.m */,
+				D17DAB301BCA4A1D00195EEB /* ViewController.h */,
+				D17DAB311BCA4A1D00195EEB /* ViewController.m */,
+				D17DAB331BCA4A1D00195EEB /* Main.storyboard */,
+				D17DAB361BCA4A1D00195EEB /* Assets.xcassets */,
+				D17DAB381BCA4A1D00195EEB /* LaunchScreen.storyboard */,
+				D17DAB3B1BCA4A1D00195EEB /* Info.plist */,
+				D17DAB2A1BCA4A1D00195EEB /* Supporting Files */,
+			);
+			path = MFComposeViewController;
+			sourceTree = "<group>";
+		};
+		D17DAB2A1BCA4A1D00195EEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D17DAB2B1BCA4A1D00195EEB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D17DAB431BCA4A1D00195EEB /* MFComposeViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D17DAB441BCA4A1D00195EEB /* MFComposeViewControllerTests.m */,
+				D17DAB461BCA4A1D00195EEB /* Info.plist */,
+			);
+			path = MFComposeViewControllerTests;
+			sourceTree = "<group>";
+		};
+		D17DAB4E1BCA4A1D00195EEB /* MFComposeViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D17DAB4F1BCA4A1D00195EEB /* MFComposeViewControllerUITests.m */,
+				D17DAB511BCA4A1D00195EEB /* Info.plist */,
+			);
+			path = MFComposeViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D17DAB261BCA4A1D00195EEB /* MFComposeViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D17DAB541BCA4A1D00195EEB /* Build configuration list for PBXNativeTarget "MFComposeViewController" */;
+			buildPhases = (
+				D17DAB231BCA4A1D00195EEB /* Sources */,
+				D17DAB241BCA4A1D00195EEB /* Frameworks */,
+				D17DAB251BCA4A1D00195EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MFComposeViewController;
+			productName = MFComposeViewController;
+			productReference = D17DAB271BCA4A1D00195EEB /* MFComposeViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D17DAB3F1BCA4A1D00195EEB /* MFComposeViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D17DAB571BCA4A1D00195EEB /* Build configuration list for PBXNativeTarget "MFComposeViewControllerTests" */;
+			buildPhases = (
+				D17DAB3C1BCA4A1D00195EEB /* Sources */,
+				D17DAB3D1BCA4A1D00195EEB /* Frameworks */,
+				D17DAB3E1BCA4A1D00195EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D17DAB421BCA4A1D00195EEB /* PBXTargetDependency */,
+			);
+			name = MFComposeViewControllerTests;
+			productName = MFComposeViewControllerTests;
+			productReference = D17DAB401BCA4A1D00195EEB /* MFComposeViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D17DAB4A1BCA4A1D00195EEB /* MFComposeViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D17DAB5A1BCA4A1D00195EEB /* Build configuration list for PBXNativeTarget "MFComposeViewControllerUITests" */;
+			buildPhases = (
+				D17DAB471BCA4A1D00195EEB /* Sources */,
+				D17DAB481BCA4A1D00195EEB /* Frameworks */,
+				D17DAB491BCA4A1D00195EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D17DAB4D1BCA4A1D00195EEB /* PBXTargetDependency */,
+			);
+			name = MFComposeViewControllerUITests;
+			productName = MFComposeViewControllerUITests;
+			productReference = D17DAB4B1BCA4A1D00195EEB /* MFComposeViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D17DAB1F1BCA4A1D00195EEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ideveloper;
+				TargetAttributes = {
+					D17DAB261BCA4A1D00195EEB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D17DAB3F1BCA4A1D00195EEB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D17DAB261BCA4A1D00195EEB;
+					};
+					D17DAB4A1BCA4A1D00195EEB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D17DAB261BCA4A1D00195EEB;
+					};
+				};
+			};
+			buildConfigurationList = D17DAB221BCA4A1D00195EEB /* Build configuration list for PBXProject "MFComposeViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D17DAB1E1BCA4A1D00195EEB;
+			productRefGroup = D17DAB281BCA4A1D00195EEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D17DAB261BCA4A1D00195EEB /* MFComposeViewController */,
+				D17DAB3F1BCA4A1D00195EEB /* MFComposeViewControllerTests */,
+				D17DAB4A1BCA4A1D00195EEB /* MFComposeViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D17DAB251BCA4A1D00195EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17DAB3A1BCA4A1D00195EEB /* LaunchScreen.storyboard in Resources */,
+				D17DAB371BCA4A1D00195EEB /* Assets.xcassets in Resources */,
+				D17DAB351BCA4A1D00195EEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17DAB3E1BCA4A1D00195EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17DAB491BCA4A1D00195EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D17DAB231BCA4A1D00195EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17DAB321BCA4A1D00195EEB /* ViewController.m in Sources */,
+				D17DAB2F1BCA4A1D00195EEB /* AppDelegate.m in Sources */,
+				D17DAB2C1BCA4A1D00195EEB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17DAB3C1BCA4A1D00195EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17DAB451BCA4A1D00195EEB /* MFComposeViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17DAB471BCA4A1D00195EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17DAB501BCA4A1D00195EEB /* MFComposeViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D17DAB421BCA4A1D00195EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D17DAB261BCA4A1D00195EEB /* MFComposeViewController */;
+			targetProxy = D17DAB411BCA4A1D00195EEB /* PBXContainerItemProxy */;
+		};
+		D17DAB4D1BCA4A1D00195EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D17DAB261BCA4A1D00195EEB /* MFComposeViewController */;
+			targetProxy = D17DAB4C1BCA4A1D00195EEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D17DAB331BCA4A1D00195EEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D17DAB341BCA4A1D00195EEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D17DAB381BCA4A1D00195EEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D17DAB391BCA4A1D00195EEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D17DAB521BCA4A1D00195EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D17DAB531BCA4A1D00195EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D17DAB551BCA4A1D00195EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MFComposeViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideveloper.ir.MFComposeViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D17DAB561BCA4A1D00195EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MFComposeViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideveloper.ir.MFComposeViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D17DAB581BCA4A1D00195EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MFComposeViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideveloper.ir.MFComposeViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MFComposeViewController.app/MFComposeViewController";
+			};
+			name = Debug;
+		};
+		D17DAB591BCA4A1D00195EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MFComposeViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideveloper.ir.MFComposeViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MFComposeViewController.app/MFComposeViewController";
+			};
+			name = Release;
+		};
+		D17DAB5B1BCA4A1D00195EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MFComposeViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideveloper.ir.MFComposeViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MFComposeViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D17DAB5C1BCA4A1D00195EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MFComposeViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideveloper.ir.MFComposeViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MFComposeViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D17DAB221BCA4A1D00195EEB /* Build configuration list for PBXProject "MFComposeViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17DAB521BCA4A1D00195EEB /* Debug */,
+				D17DAB531BCA4A1D00195EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D17DAB541BCA4A1D00195EEB /* Build configuration list for PBXNativeTarget "MFComposeViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17DAB551BCA4A1D00195EEB /* Debug */,
+				D17DAB561BCA4A1D00195EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D17DAB571BCA4A1D00195EEB /* Build configuration list for PBXNativeTarget "MFComposeViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17DAB581BCA4A1D00195EEB /* Debug */,
+				D17DAB591BCA4A1D00195EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D17DAB5A1BCA4A1D00195EEB /* Build configuration list for PBXNativeTarget "MFComposeViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17DAB5B1BCA4A1D00195EEB /* Debug */,
+				D17DAB5C1BCA4A1D00195EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D17DAB1F1BCA4A1D00195EEB /* Project object */;
+}
