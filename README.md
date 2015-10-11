@@ -7,6 +7,9 @@ MFComposeViewController is a simple ComposeViewController .
   - Simple usage
 
 
+![alt tag](http://uupload.ir/files/76it_img_1189.png)
+
+
 ### Installation and usage :
 
 1- You need import `MFComposeClasses` folder to your project
